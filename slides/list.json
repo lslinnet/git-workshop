@@ -1,1 +1,11 @@
-["index.md"]
+[
+    "index.md",
+    "intro.html",
+    "section1-introduction-to-git.html",
+    "section2-basic-usage.html",
+    "section3-advanced-concepts.html",
+    "section4-fucking-up-and-saving-your-arse.html",
+    "section5-branching-and-workflows.html",
+    "tools-and-tips.html",
+    "outro.html"
+]
