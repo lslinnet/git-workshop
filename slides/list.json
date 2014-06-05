@@ -1,11 +1,66 @@
 [
-    "index.md",
-    "intro.html",
-    "section1-introduction-to-git.html",
-    "section2-basic-usage.html",
-    "section3-advanced-concepts.html",
-    "section4-fucking-up-and-saving-your-arse.html",
-    "section5-branching-and-workflows.html",
-    "tools-and-tips.html",
-    "outro.html"
+    {
+      "filename": "index.html",
+      "attr": {
+        "data-background": "#333"
+      }
+    },
+    [
+      "intro-1.html",
+      "intro-2-toc.html"
+    ],
+    [
+      "section1-1-introduction-to-git.html",
+      "section1-2-structure.html",
+      "section1-3-head.html",
+      "section1-3-objects.html",
+      "section1-4-global-config.html",
+      "section1-5-remotes.html"
+    ],
+    [
+      "section2-1-basic-usage.html",
+      "section2-2.1-clone.html",
+      "section2-2.2-status.html",
+      "section2-2.3-checkout.html",
+      "section2-2.4-add-commit.html",
+      "section2-2.4.2-atomic.html",
+      "section2-2.5-pull-push.html",
+      "section2-3.1-log.html",
+      "section2-3.1.2-log.html",
+      "section2-3.2-diff.html",
+      "section2-3.3-show.html",
+      "section2-4.1-stash.html"
+
+    ],
+    [
+      "section3-1-advanced-concepts.html",
+      "section3-2-reset.html",
+      "section3-3-branches.html",
+      "section3-4-merge.html",
+      "section3-5-fetchmerge-vs-pull.html",
+      "section3-6-submodules.html"
+    ],
+    [
+      "section4-1-fucking-up-and-saving-your-arse.html",
+      "section4-2-conflict.html",
+      "section4-3-revert.html",
+      "section4-4-aborting.html",
+      "section4-5-reflog-history.html"
+    ],
+    [
+      "section5-1-branching-and-workflows.html",
+      "section5-2-when-to-branch.html",
+      "section5-3-branching-models.html",
+      "section5-4-gitflow.html"
+    ],
+    [
+      "appendix-1-tools-and-tips.html",
+      "appendix-2-terminal.html",
+      "appendix-3-aliases.html",
+      "appendix-4-guis.html"
+    ],
+    [
+      "outro-recap-decisions.html",
+      "outro-bonus.html"
+    ]
 ]

@@ -1,0 +1,24 @@
+<h1>push & pull</h1>
+
+<p>The pushing</p>
+<pre class="bash"><code data-trim>
+git push [--all | --mirror | --tags] [--follow-tags] [-n | --dry-run]
+         [--receive-pack=&lt;git-receive-pack&gt;] [--repo=&lt;repository&gt;]
+         [-f | --force] [--prune] [-v | --verbose] [-u | --set-upstream]
+         [&lt;repository&gt; [&lt;refspec&gt;...]]
+</code></pre>
+  <div class="fragment">
+    <p>Know where you push to!</p>
+<pre class="bash"><code data-trim>
+git push -u [&lt;repository&gt; [&lt;refspec&gt;...]]
+# or
+git push origin master
+</code></pre>
+    <small>especially with multiple remotes</small>
+  </div>
+
+<p>The pulling</p>
+<pre class="bash"><code data-trim>
+git pull [options] [&lt;repository&gt; [&lt;refspec&gt;...]]
+</code></pre>
+
