@@ -1,2 +1,17 @@
 <p><small>Why, oh why</small></p>
 <h1>Submodules</h1>
+<pre class="bash fragment" data-fragment-index="1"><code data-trim>
+git submodule add [-b &lt;branch&gt;] [-f|--force] [--name &lt;name&gt;]
+              [--reference &lt;repository&gt;] [--] &lt;repository&gt; [&lt;path&gt;]
+git submodule status [--cached] [--recursive] [--] [&lt;path&gt;...]
+git submodule init [--] [&lt;path&gt;...]
+git submodule deinit [-f|--force] [--] &lt;path&gt;...
+git submodule update [--init] [--remote] [-N|--no-fetch]
+              [-f|--force] [--rebase] [--reference &lt;repository&gt;]
+              [--merge] [--recursive] [--] [&lt;path&gt;...]
+git submodule summary [--cached|--files] [(-n|--summary-limit) &lt;n&gt;]
+              [commit] [--] [&lt;path&gt;...]
+git submodule foreach [--recursive] &lt;command&gt;
+git submodule sync [--] [&lt;path&gt;...]
+</code></pre>
+<p class="fragment" data-fragment-index="1">Be warned! there be dragons here</p>

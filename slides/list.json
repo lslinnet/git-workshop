@@ -45,13 +45,23 @@
       "section4-2-conflict.html",
       "section4-3-revert.html",
       "section4-4-aborting.html",
+      "section4-5-bisect.html",
       "section4-5-reflog-history.html"
     ],
     [
       "section5-1-branching-and-workflows.html",
       "section5-2-when-to-branch.html",
       "section5-3-branching-models.html",
-      "section5-4-gitflow.html"
+      "section5-3-branching-models1.html",
+      "section5-3-branching-models2.html",
+      {
+        "filename": "section5-4-masterless.html",
+        "attr": {
+          "data-background": "#fff"
+        }
+      },
+      "section5-4-gitflow.html",
+      "section5-5-chosen.html"
     ],
     [
       "appendix-1-tools-and-tips.html",

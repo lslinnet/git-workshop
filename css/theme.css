@@ -153,3 +153,13 @@ body {
 
 .highlight {
   color: hotpink; }
+
+.right {
+  display: inline;
+  width: 49%;
+  float: right; }
+
+.left {
+  display: inline;
+  width: 49%;
+  float: left; }
